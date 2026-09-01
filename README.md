@@ -15,13 +15,13 @@ Notepad++ için resmi çeviride yer alan yazım hatalarını, eksik terimleri ve
 3. İndirdiğiniz `turkish.xml` dosyasını bu klasörün içine kopyalayın (Mevcut dosya ile değiştirin).
 4. Notepad++ uygulamasını yeniden başlatın ve **Ayarlar > Tercihler > Genel** menüsünden dili Türkçe seçin.
 
-## 📋 Depo Klasör Yapısı
+## 📋 Depo Dosya Yapısı
 
 ```text
 notepad-plus-plus-turkish/
-├── 📄 turkish.xml          # Güncel Türkçe dil dosyası
 ├── 📄 README.md            # Proje tanıtımı ve kurulum rehberi
-└── 📄 STYLE_GUIDE.md       # Katkıda bulunma ve çeviri standartları
+├── 📄 STYLE_GUIDE.md       # Katkıda bulunma ve çeviri standartları
+└── 📄 turkish.xml          # Güncel Türkçe dil dosyası
 ```
 ## 📄 Lisans
 
