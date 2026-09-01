@@ -17,15 +17,11 @@ Notepad++ için resmi çeviride yer alan yazım hatalarını, eksik terimleri ve
 
 ## 📋 Depo Klasör Yapısı
 
-```markdown
 ```text
-notepad-plus-plus/
-├── 📁 PowerEditor/
-│   └── 📁 installer/
-│       └── 📁 nativeLang/
-│           └── 📄 turkish.xml      # Güncel Türkçe dil dosyası
-├── 📄 README.md                    # Proje tanıtımı ve kurulum rehberi
-└── 📄 style_guide.md               # Katkıda bulunma ve çeviri standartları
+notepad-plus-plus-turkish/
+├── 📄 turkish.xml          # Güncel Türkçe dil dosyası
+├── 📄 README.md            # Proje tanıtımı ve kurulum rehberi
+└── 📄 STYLE_GUIDE.md       # Katkıda bulunma ve çeviri standartları
 ```
 ## 📄 Lisans
 
