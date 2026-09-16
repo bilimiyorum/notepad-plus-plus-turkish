@@ -1474,10 +1474,10 @@ Bu pencereyi Tercihler içinden tekrar aktif edebilirsiniz."/>
 								
 $STR_REPLACE$
 
-Yüklenmesi, Windows'un o sunucuya otomatik olarak kimlik doğrulamasına neden olacak, bu da windows giriş bilginizin potansiyel olarak ifşa olmasına sebep olacaktır.
+Bu dosyanın yüklenmesi, Windows'un kendi sunucusunda otomatik olarak kimlik doğrulaması yapmasına neden olur ve Windows oturum açma bilgilerinizi açığa çıkarabilir.
 Yine de yüklensin mi?"/>
 				<Item id="2" name="&amp;Atla"/>
-				<Item id="6" name="Yük&amp;le"/>
+				<Item id="6" name="Her zaman bu sunucudan yük&amp;le"/>
 				<Item id="7" name="&amp;Ağ yolunu her zaman atla"/>
 				<Item id="4" name="Ağ yolunu her zaman yükl&amp;e"/>
 			</NetworkPathWarning>
@@ -1590,11 +1590,11 @@ lütfen yeni bir ad verin."/>
 			<UDLRemoveCurrentLang title="Şu anki dili kaldır" message="Emin misiniz?"/>
 			<UDL_importSuccessful title="Kullanıcı tanımlı dil" message="İçeri alım başarılı."/>
 			<UDL_importFails title="Kullanıcı tanımlı dil" message="İçeri alım başarısız."/>
-			<UDL_saveBeforeImport title="Kullanıcı tanımlı dil" message="Dışa aktarma öncesinde, dil tanımınızı &quot;Farklı kaydet...&quot; seçeneğine tıklayarak kaydedin."/><!-- Nasıl yeniden üretilir: Kullanıcı Dili penceresinde "Kullanıcı Tanımlı Dil" seçin, sonrasında "Dışa Ver..." dümesine basın. -->
+			<UDL_saveBeforeImport title="Kullanıcı tanımlı dil" message="Dışa aktarma öncesinde, dil tanımınızı &quot;Farklı kaydet...&quot; seçeneğine tıklayarak kaydedin."/> <!-- Nasıl yeniden üretilir: Kullanıcı Dili penceresinde "Kullanıcı Tanımlı Dil" seçin, sonrasında "Dışa Ver..." dümesine basın. -->
 			<UDL_exportSuccessful title="Kullanıcı tanımlı dil" message="Dışa aktarma başarılı."/>
 			<UDL_exportFails title="Kullanıcı tanımlı dil" message="Dışa aktarma başarısız."/>
 			<SCMapperDoDeleteOrNot title="Emin misiniz?" message="Bu kısayolu silmek istediğinize emin misiniz?"/>
-			<FindCharRangeValueError title="Aralık değeri problemi" message="0 ile 255 arasında bir giriş yapmalısınız."/><!-- Nasıl yeniden üretilir: Ara menüsü, Aralıktaki karakterleri bul, Özel Aralık seçin, herhangi bir düzenle kutusunda 999 girin, ve Ara'ya basın. -->
+			<FindCharRangeValueError title="Aralık değeri problemi" message="0 ile 255 arasında bir giriş yapmalısınız."/> <!-- Nasıl yeniden üretilir: Ara menüsü, Aralıktaki karakterleri bul, Özel Aralık seçin, herhangi bir düzenle kutusunda 999 girin, ve Ara'ya basın. -->
 			<OpenInAdminMode title="Kayıt başarısız" message="Dosya kaydedilemedi, korumalı olabilir.
 Notepad++ uygulamasını Yönetici olarak başlatmak ister misiniz?"/>
 			<OpenInAdminModeWithoutCloseCurrent title="Kayıt başarısız" message="Dosya kaydedilemedi, korumalı olabilir.
@@ -1632,7 +1632,7 @@ Bul penceresini açmak için Tamam tuşuna basın veya ona odaklayın.
 Eğer geriye doğru düzenli ifade arama özelliğine ihtiyacınız varsa, kullanıcı kılavuzundaki talimatlarla etkinleştirin."/>
 			<PrintError title="0" message="Yazıcı belgesi başlatılamıyor."/><!-- title="0" kullanarak Windows İS varsayılan "Hata" tercüme başlığını kullanabilirsiniz. -->
 			<FindAutoChangeOfInSelectionWarning title="Arama uyarısı" message="&quot;Seçimde&quot; kutucuk değeri otomatik olarak değiştirildi.
-Bu eylemi gerçekleştirmeden önce lütfen arama durumunu doğrulayın."/><!-- Nasıl yeniden üretilir: https://github.com/notepad-plus-plus/notepad-plus-plus/issues/14897#issuecomment-2564316224 -->
+Bu eylemi gerçekleştirmeden önce lütfen arama durumunu doğrulayın."/> <!-- Nasıl yeniden üretilir: https://github.com/notepad-plus-plus/notepad-plus-plus/issues/14897#issuecomment-2564316224 -->
 			<Need2Restart2ShowMenuShortcuts title="Notepad++ yeniden başlatılmalı" message="Doğru menü kısayollarının gösterimi için Notepad++ yeniden başlatılmalı."/>
 			<NoAdminRight2ChangeReadOnlyFileAttribute title="Dosyanın salt okunur özniteliği değişimi başarısız" message="Dosya niteliklerinin değişmesi için lütfen Notepad++'ı yönetici olarak çalıştırın."/>
 			<ReadOnlyFileCannotBeSaved title="Kayıt başarısız - Dosya salt okunur" message="&quot;$STR_REPLACE$&quot;
@@ -1947,6 +1947,9 @@ Gelişmiş modu seçmenize rağmen adı geçen dillerdeki dosyaları düzenlemez
 			<max-len-on-save-tip value="Girdinizin genişliği çok fazla ve bir sonraki oturumda kaydedilmeyebilir."/>
 			<goto-setting-tip value="Ayarınızı burada bulun"/>
 			<tabbar-tabcompactlabellen-tip value="Görünebilir uzun sekme isimlerini sınırlar. Onaylamak için verilen değeri girin. Değer aralığı: 1-257 karakter (0 kesmeyi etkisizleştirir)."/>
+			<networkpathwarning-serverwhitelist-tip value="Puts the server of the current file into Notepad++ serverWhiteList.xml.
+
+For more info, click on this button to open website with relevant User Manual section."/>
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>
