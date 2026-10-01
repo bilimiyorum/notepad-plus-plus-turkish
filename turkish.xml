@@ -975,6 +975,7 @@
 					<Item id="6132" name="Sağdaki kısayolları gizle ＋ ▼ ✕"/>
 					<Item id="6133" name="Durum çubuğu"/>
 					<Item id="6134" name="Gizle"/>
+					<Item id="7165" name="Diyalog yazı boyutu (Notepad++ uygulamasının yeniden başlatılması gerekir)"/>
 				</Global>
 				
 				<Toolbar title="Araç çubuğu">
